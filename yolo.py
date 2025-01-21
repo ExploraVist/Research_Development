@@ -4,7 +4,7 @@ import numpy
 # Load a model
 model = YOLO("yolo11n.pt")
 
-
+test_var = 123
 
 #  Train the model
 # train_results = model.train(
