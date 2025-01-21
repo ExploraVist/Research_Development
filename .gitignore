@@ -160,3 +160,50 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Machine Learning / YOLO-related
+
+# Datasets and image files
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.gif
+
+# Label files
+*.txt
+
+# Model weights and checkpoints
+*.weights
+*.pth
+*.pt
+*.onnx
+*.h5
+
+# TensorFlow / PyTorch related files
+saved_model/
+checkpoints/
+logs/
+events.out.tfevents.*
+
+# YOLO specific directories
+runs/
+results/
+
+# Temporary training artifacts
+*.tmp
+*.log
+*.csv
+
+# Annotation tools
+*.json
+*.xml
+labelImg/
+
+# Other large or generated files
+*.npy
+*.npz
+*.pkl
+*.hdf5
+*.ckpt
